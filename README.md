@@ -36,10 +36,10 @@ ju preporučujem onemogućiti u viewportu).
     <figcaption>Slika terena renderiranog odozgora s EEVEE (lijevo) i Cycles (desno)</figcaption>
     </figure>
 
-- Potočić: proceduralno generiran pomoću geometry nodeova iz bezierove krivulje.
+- Potočić: proceduralno generiran pomoću geometry nodeova iz Bezierove krivulje.
 Moguće je proizvoljno dodavati segmente krivulje i pomicati ih, potočić će biti projiciran
-na teren i teći će u dobrom smijeru.
-Moguće je dodati još potočića dodavanjem novih bezierovih krivulja i dodavanjem istog
+na teren i teći će u ispravnom smjeru.
+Moguće je dodati još potočića dodavanjem novih Bezierovih krivulja i dodavanjem istog
 geometry nodea u modifikatorima.
 
 <figure>
@@ -55,7 +55,7 @@ Okret gornjeg dijela tijela je animiran pomoću ključnih okvira.
 </figure>
 
 - Deblo: izrađeno kombinirano spajanjem 2 cilindra booleovim operacijama i skulpturiranjem.
-- Litica: izrađena skulpturiranjem. Za kamenja koja padaju s litice koriste se RigidBody za
+- Litica: izrađena skulpturiranjem. Za kamenja koja padaju s litice koristi se RigidBody za
 interakciju s terenom.
 - Roj pčela: čestični sustav boida. Model pčele je skulpturiran.
 Boid ima postavljenu opciju Boid Brain koja prati nevidljivi objekt koji se kreće u vremenu po
